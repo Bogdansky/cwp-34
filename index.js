@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const config = require('./config.json');
-const port = 6000;
+const port = process.env.PORT || 6000;
 
 const db = require('./context')(Sequelize, config);
 const server = require('./appManager')(db, config);
