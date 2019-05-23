@@ -1,0 +1,12 @@
+{
+    "host": "localhost",
+    "db": "cwp",
+    "login": "root",
+    "password": "5591",
+    "port": 3306,
+    "dialect": "mysql",
+    "define": {
+        "timestamps": true,
+        "paranoid": true
+    }
+  }
